@@ -20,7 +20,7 @@ This project is a simple web application that displays reviews in a carousel for
 4. **README.md:** Markdown file providing an overview of the project, its features, technologies used, and file structure.
 
 ## Demo
-[Reviews](#)
+[Reviews](https://reviews-beryl.vercel.app/)
 
 ## How to Use
 1. Clone the repository to your local machine.
