@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #caf4ff;
+}
+
+header .container h1 {
+  letter-spacing: 2px;
+}
+
+header .container .line {
+  width: 80px;
+  height: 5px;
+  background-color: #5ab2ff;
+  border-radius: 8px;
+  margin: 10px auto 20px;
+}
+
+main {
+  height: 70vh;
+  max-width: 550px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 24px 24px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1), -3px -3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.article-container #img-container img {
+  border-radius: 70%;
+  border: 10px solid #5ab2ff;
+  margin-bottom: 15px;
+}
+
+.article-container #author {
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.article-container #job {
+  color: #5ab2ff;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  margin-top: 25px;
+}
+
+.buttons-container .slide-buttons {
+  margin-bottom: 25px;
+}
+
+.slide-buttons .prev-btn,
+.next-btn {
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #5ab2ff;
+  border: 0;
+  margin-right: 10px;
+}
+
+.buttons-container .random-btn {
+  padding: 8px;
+  border-radius: 8px;
+  border: 2px solid #5ab2ff;
+  color: #5ab2ff;
+  font-weight: 600;
+  background-color: #caf4ff;
+}
