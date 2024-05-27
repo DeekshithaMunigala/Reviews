@@ -1,4 +1,4 @@
-# Reviews Carousel
+# Reviews 
 
 ## Description
 This project is a simple web application that displays reviews in a carousel format. Users can navigate through the reviews using previous and next buttons or get a random review by clicking the "Surprise Me" button. Each review includes the reviewer's name, job title, an image, and a testimonial text.
